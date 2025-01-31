@@ -1,0 +1,6 @@
+Problem Statement (For Practice):
+Design and develop a travel blog website with 2-3 webpages using HTML, CSS Selectors, and CSS Flexbox. The website should be fully responsive and include the following features:
+
+1. Home Page: A visually appealing landing page with a navigation menu, a hero section featuring a travel image, and a brief introduction to the blog.
+2. Blog Page: A page listing various travel blog posts with images, summaries, and links to full articles.
+3. About Page: A page providing information about the blog and its authors.
