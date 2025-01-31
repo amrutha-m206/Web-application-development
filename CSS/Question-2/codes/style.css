@@ -1,0 +1,108 @@
+.nav-bar a{
+  text-decoration:none;
+  color:white;
+  font-size:25px;
+  padding:5px;
+
+}
+*{
+  margin:auto;
+}
+.nav-bar{
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+
+  padding-bottom: 10px;
+  
+  overflow:hidden;
+
+}
+.nav-bar a:hover{
+    color:rgb(80, 136, 110);
+}
+.images img {
+ opacity:0.95;
+  position:relative;
+}
+
+.para {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(234, 201, 201);
+  font-size: 40px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 80px;
+  border-radius: 10px;
+}
+
+.foot{
+   position: absolute;
+  top: 97%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+  padding: 10px;
+  border-radius: 10px;
+}
+.foot a{
+  text-decoration:none;
+  color: white;
+
+}
+
+.flex-container {
+   
+  display: flex;
+  padding:20px;
+     justify-content: center;
+    align-items: center;
+  text-align: center;
+ 
+}
+
+
+
+.place{
+  border: 3px solid rgb(173, 102, 102);
+ padding: 10px;
+ background-color: rgb(197, 207, 193);
+   
+  
+}
+.place a{
+  text-decoration: none;
+  color:brown;
+  
+  
+}
+
+/* For tablets */
+@media (max-width: 768px) {
+  .nav-bar a {
+    font-size: 1.2em;
+  }
+  .para p {
+    font-size: 1em;
+  }
+}
+
+/* For phones */
+@media (max-width: 480px) {
+  .nav-bar a {
+    font-size: 1em;
+  }
+  .para p {
+    font-size: 0.8em;
+  }
+  .images img {
+    width: 100%;
+    height: auto;
+  }
+}
