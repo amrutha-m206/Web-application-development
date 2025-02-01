@@ -1,0 +1,3 @@
+Working in a company and associated with a project-travel blog, create a page where you have to display 5 historical places of India.
+Make 5 clickable image in that page
+once u click on the image it should redirect to the details about the image and it should have back button to home page.
