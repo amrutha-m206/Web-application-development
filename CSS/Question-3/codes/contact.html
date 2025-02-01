@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: rgb(215, 248, 250);
+        }
+    </style>
+</head>
+<body>
+      <div class="navbar">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+             <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            
+        </ul>
+    </div>
+  <h2> Register using the below form for reserving your seats</h2>
+  <br>
+  <div class="info">
+     <form id="booking">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" required>
+        <br>
+         <label for="seats">Number of seats</label><br>
+        <input type="number" id="seats" ><br>
+        <label >Email</label><br>
+
+        <input type="email" >
+        <button type="submit">Submit</button>
+
+     </form>
+    </div>
+    <div id="confirmation" class="confirm"> </div>
+    <footer>
+         <p> &copy; SkyBlue Restaurant. All rights reserved. </p>
+    </footer>
+    <script>
+  document.getElementById("booking").addEventListener("submit", function (e) {
+    e.preventDefault(); // Prevent the form from refreshing the page
+
+    // Fetch input values
+    const name = document.getElementById("name").value;
+    const seats = document.getElementById("seats").value;
+
+    // Display confirmation message
+    const confirmation = document.getElementById("confirmation");
+    confirmation.textContent = `Thank you, ${name}! Your seats (${seats}) are confirmed.`;
+    confirmation.style.display = "block";
+});
+    </script>
+</body>
+</html>
