@@ -1,0 +1,1 @@
+Create a web page for a restaurant , add a navigation bar with home,menu,contact each leading to a new page. Use flex box feature to align the menu items . Add a contact form which takes in user input .
