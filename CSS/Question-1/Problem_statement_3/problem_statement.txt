@@ -1,1 +1,0 @@
-Create an online shopping website and design the html version of the cart page-image ,text of the product and image cost and total.
